@@ -30,6 +30,20 @@ $ python BMBF.py
 
 > untuk menghindari spam ip
 
+> dan jika menampilkan
+
+> aplikasi dapat menguras
+
+> kuota dengan cepat ya
+
+> dan jika menambahkan
+
+> sandi tambahan dapat
+
+> memperlambat proses
+
+> cracking nya ya bang
+
 # baca
 
 > ini sc gratis bang

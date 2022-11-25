@@ -455,8 +455,8 @@ def setting():
 		exit()
 		
 ###>[ METHOD LOGIN ]<###
-	print('[•] 1. Method V1 ')
-	print('[•] 2. Method V2 ')
+	print('[•] 1. Method Validate ')
+	print('[•] 2. Method Regular ')
 	print('========================================')
 	basarifaa = input('[?] Pilih : ')
 	if basarifaa in ['1','01']:

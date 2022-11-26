@@ -286,8 +286,8 @@ def login_bas():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL !{x} ');time.sleep(1)
-		back()
+		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL ! JALANKAN LAGI !{x} ');time.sleep(1)
+		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")

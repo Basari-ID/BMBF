@@ -22,6 +22,14 @@ $ cd BMBF
 
 $ python BMBF.py
 
+# update
+
+$ cd BMBF
+
+$ git pull
+
+$ python BMBF.py
+
 # info
 
 > on/of mode pesawat setiap

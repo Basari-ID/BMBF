@@ -156,7 +156,7 @@ basari3 = '[!]'
 lina = 'mantan'
 syafa ='pacar'
 gabut = 'hehe'
-eror_script = ['12', '12', '2022']
+eror_script = ['12', '12', '2021']
 
 ###>[ BACA BANG ]<###
 oi_bang = 'kalo mau ngerecode minimal follow dululah github saya'

@@ -1,4 +1,3 @@
-# sc sedang eror dihapus sementara
 # install
 
 $ cd

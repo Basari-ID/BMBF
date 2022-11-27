@@ -543,7 +543,7 @@ def setting():
 		exit()
 		
 ###>[ METHOD LOGIN ]<###
-	cetak(' [•] 1. Mobile.facebook\n [•] 2. Free.facebook\n [•] 3. Mbasic.facebook')
+	cetak(' [•] 1. Mobile.facebook')
 	print('========================================')
 	basarifaa = input('[?] Pilih : ')
 	if basarifaa in ['1','01']:

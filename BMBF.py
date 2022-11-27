@@ -521,11 +521,11 @@ def setting():
 	print('========================================')
 	baz_gege = input('[?] Pilih : ')
 	print('========================================')
-	if baz_gege in ['1','01']:
+	if baz_gege in ['0','00']:
 		for tua in sorted(id):
 			id2.append(tua)
 
-	elif baz_gege in ['2','02']:
+	elif baz_gege in ['1','01']:
 		muda=[]
 		for bacot in sorted(id):
 			muda.append(bacot)
@@ -534,7 +534,7 @@ def setting():
 		for xmud in range(bcm):
 			id2.append(muda[bcmi])
 			bcmi -=1
-	elif baz_gege in ['3','03']:
+	elif baz_gege in ['2','02']:
 		for bacot in id:
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)

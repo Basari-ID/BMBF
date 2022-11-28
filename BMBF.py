@@ -165,7 +165,7 @@ basari3 = '[!]'
 lina = 'mantan'
 syafa ='pacar'
 gabut = 'hehe'
-eror_script = ['12', '12', '2022']
+eror_script = ['12', '12', '2021']
 
 ###>[ BACA BANG ]<###
 oi_bang = 'kalo mau ngerecode follow dululah github saya'
@@ -256,7 +256,7 @@ def perbaikan_sc():
 	tanggal = thn_ + bln_ + tgl_
 	err = eror_script[2] + eror_script[1] + eror_script[0]
 	if tanggal >= err:
-		basari_tamvan(f'{sir}[!] SCRIPT BMBF SEDANG DALAM PERBAIKAN,SILAHKAN CHAT AUTHOR UNTUK INFO LEBIH LANJUT{x}')
+		basari_tamvan(f'{sir}[!] MOHON MAAF SCRIPT BMBF SEDANG DALAM PERBAIKAN,SILAHKAN CHAT AUTHOR UNTUK INFO LEBIH LANJUT,TERIMA KASIH{x}')
 		time.sleep(4)
 		os.system("xdg-open https://www.facebook.com/basari.shp")
 		exit()

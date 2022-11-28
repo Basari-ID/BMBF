@@ -503,7 +503,7 @@ def setting():
 		exit()
 		
 ###>[ METHOD LOGIN ]<###
-	cetak(' [•] 1. Mobile.facebook\n [•] 2. Mbasic.facebook')
+	cetak(' [•] 1. Mobile.facebook')
 	print(f'{b}========================================{x}')
 	basarifaa = input(f'{P}[?] Pilih :{x} ')
 	if basarifaa in ['1','01']:

@@ -70,4 +70,4 @@ $ python BMBF.py
 
 > nikmati aja bang
 
-# 🥰
+# 👍

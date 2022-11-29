@@ -1,7 +1,5 @@
 # install
 
-$ cd
-
 $ pkg update && pkg upgrade
 
 $ pkg install python git
@@ -70,4 +68,6 @@ $ python BMBF.py
 
 > ijo cuman jarang 
 
-> nimkatin aja bang
+> nikmati aja bang
+
+# 🥰

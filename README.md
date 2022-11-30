@@ -28,28 +28,6 @@ $ git pull
 
 $ python BMBF.py
 
-# info
-
-> on/of mode pesawat setiap
-
-> 400id dalam 10 detik
-
-> untuk menghindari spam ip
-
-> dan jika menampilkan
-
-> aplikasi dapat menguras
-
-> kuota dengan cepat ya
-
-> dan jika menambahkan
-
-> sandi tambahan dapat
-
-> memperlambat proses
-
-> cracking nya ya bang
-
 # baca
 
 > ini sc gratis bang

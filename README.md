@@ -1,4 +1,4 @@
-# sc dihapus 🙏
+# sc dihapus 🙏🙏
 
 $ pkg update && pkg upgrade
 

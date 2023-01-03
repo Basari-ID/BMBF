@@ -28,24 +28,3 @@ $ git pull
 
 $ python BMBF.py
 
-# baca
-
-> ini sc gratis bang
-
-> jadi hasilnya tidak
-
-> terlalu bagus ya
-
-> kalo mau yang hasil
-
-> ijo terus beli sc
-
-> yang premium bang
-
-> sc ini juga hasil
-
-> ijo cuman jarang 
-
-> nikmati aja bang
-
-# 😃

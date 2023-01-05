@@ -10,6 +10,8 @@ $ pip install rich bs4
 
 $ pip install stdiomask
 
+$ pkg install play-audio
+
 $ pip install --upgrade pip
 
 $ git clone https://github.com/Basari-ID/BMBF

@@ -30,10 +30,7 @@ $ git pull
 
 $ python BMBF.py
 
-# info
-
 > make doang nggak follow.
 
 > minimal follow dulu lah.
 
-> sc sudah tidak free lagi.

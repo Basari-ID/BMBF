@@ -6,6 +6,8 @@ $ pkg install python git
 
 $ pip install requests mechanize
 
+$ pip install pycryptodome
+
 $ pip install rich bs4
 
 $ pip install stdiomask

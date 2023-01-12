@@ -154,18 +154,19 @@ def banner2():
 def chk(): 
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid) 
+  clear()
   banner()
-  print(f"{bv}└── ID KAMU : "+id) 
+  print(f"{bv}└── ID : "+id) 
   try: 
     httpCaht = requests.get("https://raw.githubusercontent.com/Basari-ID/BMBF/main/id.txt").text 
     if id in httpCaht: 
-      cetak(panel(f' [cyan]ID KAMU TELAH AKTIF',width=70,title=f"",style=f"{warna_kolor}"))
+      cetak(panel(f'  [cyan]ID KAMU TELAH AKTIF',width=70,title=f"",style=f"{warna_kolor}"))
       msg = str(os.geteuid()) 
       time.sleep(1) 
       pass 
     else: 
-      cetak(panel(f' [cyan]ID KAMU TIDAK AKTIF KAMU AKAN DIARAHKAN',width=70,title=f"",style=f"{warna_kolor}"))
-      cetak(panel(f' [cyan]KE WHATSAPP UNTUK MENGAKTIFKAN ID KAMU',width=70,title=f"",style=f"{warna_kolor}"))
+      cetak(panel(f'  [cyan]ID KAMU TIDAK AKTIF KAMU AKAN DIARAHKAN',width=70,title=f"",style=f"{warna_kolor}"))
+      cetak(panel(f'  [cyan]KE WHATSAPP UNTUK MENGAKTIFKAN ID KAMU',width=70,title=f"",style=f"{warna_kolor}"))
       os.system('xdg-open https://wa.me/+628976622679')
       time.sleep(1) 
       sys.exit() 

@@ -158,13 +158,13 @@ def chk():
   try: 
     httpCaht = requests.get("https://raw.githubusercontent.com/Basari-ID/BMBF/main/id.txt").text 
     if id in httpCaht: 
-      print("\033[92m  ID KAMU TELAH AKTIF\033[97m") 
+      cetak(panel(f' [cyan]ID KAMU TELAH AKTIF',width=70,title=f"",style=f"{warna_kolor}"))
       msg = str(os.geteuid()) 
       time.sleep(1) 
       pass 
     else: 
-      print("\x1b[91m ID KAMU TIDAK AKTIF\033[97m") 
-      print("\x1b[91m SILAHKAN CHAT SAYA\033[97m") 
+      cetak(panel(f' [cyan]ID KAMU TIDAK AKTIF ! KAMU AKAN DIARAHKAN',width=70,title=f"",style=f"{warna_kolor}"))
+      cetak(panel(f' [cyan]KE WHATSAPP UNTUK MENGAKTIFKAN ID KAMU',width=70,title=f"",style=f"{warna_kolor}"))
       os.system('xdg-open https://wa.me/+628976622679')
       time.sleep(1) 
       sys.exit() 

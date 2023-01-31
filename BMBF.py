@@ -1,4 +1,4 @@
-import time
+import time,os
 from rich.panel import Panel as ganteng
 from rich import print as basari
 try:
